@@ -1,0 +1,29 @@
+const img = (id, width = 800) => `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${width}&q=85`;
+
+export const products = [
+  { id: 'p1', name: 'Meher Kundan Necklace Set', category: 'sets', price: 1499, original: 1999, rating: 4.8, reviews: 126, badge: 'Best Seller', image: img('photo-1611652022419-a9419f74343d'), colors: ['Gold', 'Rose'], material: 'Editable demo: alloy base, kundan-style stones and pearl-look drops.' },
+  { id: 'p2', name: 'Aarohi Pearl Jhumkas', category: 'jhumkas', price: 449, original: 599, rating: 4.7, reviews: 89, badge: 'New', image: img('photo-1605100804763-247f67b3557e'), colors: ['Gold', 'Silver'], material: 'Editable demo: gold-tone finish with pearl-look detailing.' },
+  { id: 'p3', name: 'Nazaara Floral Studs', category: 'studs', price: 299, original: 399, rating: 4.6, reviews: 52, badge: 'Under ₹499', image: img('photo-1635767798638-3e25273a8236'), colors: ['Ivory', 'Pink'], material: 'Editable demo: floral metalwork with glass stones.' },
+  { id: 'p4', name: 'Riwaaz Kundan Bangles', category: 'bangles', price: 699, original: 899, rating: 4.9, reviews: 148, badge: 'Best Seller', image: img('photo-1573408301185-9146fe634ad0'), colors: ['Gold'], material: 'Editable demo: pair of gold-tone bangles with stone detailing.' },
+  { id: 'p5', name: 'Saanvi Everyday Chain', category: 'chains', price: 399, original: 499, rating: 4.5, reviews: 35, badge: 'New', image: img('photo-1599643478518-a784e5dc4c8f'), colors: ['Gold', 'Silver'], material: 'Editable demo: slim fashion chain and pendant.' },
+  { id: 'p6', name: 'Nitya Crystal Bracelet', category: 'bracelets', price: 379, original: 499, rating: 4.6, reviews: 77, badge: 'Under ₹499', image: img('photo-1617038260897-41a1f14a8ca0'), colors: ['Gold', 'Rose'], material: 'Editable demo: delicate crystal-look bracelet.' },
+  { id: 'p7', name: 'Ira Lotus Maang Tikka', category: 'maang-tikka', price: 529, original: 699, rating: 4.7, reviews: 46, badge: 'New', image: img('photo-1617038220319-276d3cfab638'), colors: ['Gold'], material: 'Editable demo: floral tikka with bead drops.' },
+  { id: 'p8', name: 'Mira Mirror Nose Pin', category: 'nose-pins', price: 249, original: 349, rating: 4.4, reviews: 23, badge: 'Under ₹499', image: img('photo-1515562141207-7a88fb7ce338'), colors: ['Gold', 'Silver'], material: 'Editable demo: non-piercing fashion nose pin.' },
+  { id: 'p9', name: 'Nupur Ghungroo Payal', category: 'anklets', price: 479, original: 649, rating: 4.6, reviews: 61, badge: 'Best Seller', image: img('photo-1611085583191-a3b181a88401'), colors: ['Silver'], material: 'Editable demo: adjustable anklet with ghungroo-inspired charms.' },
+  { id: 'p10', name: 'Kavya Toe Ring Pair', category: 'toe-rings', price: 219, original: 299, rating: 4.5, reviews: 39, badge: 'Under ₹499', image: img('photo-1611652022419-a9419f74343d'), colors: ['Silver', 'Gold'], material: 'Editable demo: adjustable fashion toe ring pair.' },
+  { id: 'p11', name: 'Ziva Statement Ring', category: 'rings', price: 349, original: 449, rating: 4.7, reviews: 58, badge: 'New', image: img('photo-1598560917505-59a3ad559071'), colors: ['Gold', 'Rose'], material: 'Editable demo: adjustable statement ring.' },
+  { id: 'p12', name: 'Amina Drop Earrings', category: 'earrings', price: 429, original: 579, rating: 4.8, reviews: 91, badge: 'Best Seller', image: img('photo-1535632066927-ab7c9ab60908'), colors: ['Gold', 'Pearl'], material: 'Editable demo: drop earrings with pearl-look accents.' },
+  { id: 'p13', name: 'Tara Layered Necklace', category: 'necklaces', price: 899, original: 1199, rating: 4.8, reviews: 103, badge: 'Best Seller', image: img('photo-1611652022419-a9419f74343d'), colors: ['Gold'], material: 'Editable demo: layered fashion necklace.' },
+  { id: 'p14', name: 'Aadhya Mini Mangalsutra', category: 'mangalsutra', price: 649, original: 799, rating: 4.6, reviews: 67, badge: 'New', image: img('photo-1599643478518-a784e5dc4c8f'), colors: ['Gold'], material: 'Editable demo: black-bead style fashion mangalsutra.' },
+  { id: 'p15', name: 'Ruhani Bridal Edit', category: 'bridal', price: 1899, original: 2499, rating: 4.9, reviews: 114, badge: 'Best Seller', image: img('photo-1611652022419-a9419f74343d'), colors: ['Gold', 'Maroon'], material: 'Editable demo: bridal-inspired necklace, earring and tikka set.' },
+  { id: 'p16', name: 'Diya Festival Gift Box', category: 'gifts', price: 799, original: 999, rating: 4.7, reviews: 36, badge: 'New', image: img('photo-1605100804763-247f67b3557e'), colors: ['Gold'], material: 'Editable demo: curated gift set.' },
+  { id: 'p17', name: 'Noor Hand Harness', category: 'hathphool', price: 599, original: 749, rating: 4.6, reviews: 32, badge: 'Festive', image: img('photo-1573408301185-9146fe634ad0'), colors: ['Gold'], material: 'Editable demo: adjustable hand harness / hathphool.' },
+  { id: 'p18', name: 'Leela Celebration Earrings', category: 'festive', price: 559, original: 699, rating: 4.7, reviews: 54, badge: 'Festive', image: img('photo-1535632066927-ab7c9ab60908'), colors: ['Gold', 'Pink'], material: 'Editable demo: festive drop earrings.' },
+  { id: 'p19', name: 'Anaya Petite Hoops', category: 'daily', price: 329, original: 429, rating: 4.5, reviews: 49, badge: 'Daily Edit', image: img('photo-1605100804763-247f67b3557e'), colors: ['Gold', 'Silver'], material: 'Editable demo: lightweight fashion hoops.' }
+];
+
+export const demoReviews = [
+  { name: 'Aanya S.', text: 'Demo review — the packaging felt special and the styling was exactly what I wanted for a festive look.', stars: 5 },
+  { name: 'Riya M.', text: 'Demo review — beautiful details, easy browsing, and plenty of options under my budget.', stars: 5 },
+  { name: 'Kavita R.', text: 'Demo review — I would love to see more everyday pieces in this style.', stars: 4 }
+];

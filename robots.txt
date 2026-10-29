@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Submit this sitemap in Google Search Console after verifying the site.
+Sitemap: https://devsharma20.github.io/jainy-store/sitemap.xml
